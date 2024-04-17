@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using SchoolActivityTrackerApp.Helpers;
+
+var activity = Utils.CreateActivity();
+
+Utils.DisplayIncompleteTasks(activity);
+
+Utils.DisplayCompletedTasks(activity);
