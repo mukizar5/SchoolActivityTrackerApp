@@ -1,7 +1,7 @@
 ﻿using SchoolActivityTrackerApp.Helpers;
 
-var activity = Utils.CreateActivity();
+var activities = Utils.CreateActivities();
 
-Utils.DisplayIncompleteTasks(activity);
+Utils.DisplayIncompleteTasks(activities);
 
-Utils.DisplayCompletedTasks(activity);
+Utils.DisplayCompletedTasks(activities);
