@@ -4,7 +4,7 @@ namespace SchoolActivityTrackerApp.Helpers
 {
     public static class Utils
     {
-        public static List<Activity> CreateActivity()
+        public static List<Activity> CreateActivities()
         {
             List<Activity> activities = new()
             {
