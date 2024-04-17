@@ -1,8 +1,4 @@
-﻿
-
-using SchoolActivityTrackerApp.Helpers;
-
-namespace SchoolActivityTrackerApp
+﻿namespace SchoolActivityTrackerApp
 {
     public class Activity:BaseClass
     {
